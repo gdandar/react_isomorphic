@@ -1,0 +1,17 @@
+{
+  "name": "react_isomorphic",
+  "version": "1.0.0",
+  "private": true,
+  "devDependencies": {
+    "gulp": "^3.8.8",
+    "gulp-util": "^3.0.6",
+    "webpack": "^1.12.2"
+  },
+  "dependencies": {
+    "express": "^4.13.3",
+    "jade": "^1.11.0",
+    "jsx-loader": "^0.13.2",
+    "node-jsx": "^0.13.3",
+    "react": "^0.13.3"
+  }
+}
