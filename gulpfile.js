@@ -22,7 +22,8 @@ gulp.task('webpack', function (callback) {
         resolve: {
             extensions: ['', '.js', '.jsx'],
             root: [jsRoot],
-            modulesDirectories: ['node_modules']
+            modulesDirectories: ['node_modules'],
+            packageAlias: 'browser'
         }
     }, function (err, stats) {
         if (err) throw new gutil.PluginError('webpack', err);
